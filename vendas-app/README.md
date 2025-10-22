@@ -1,12 +1,41 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Getting Started (back)
+
+# Java 11
+
+## Docker 
+```
+cd vendas-api
+docker-compose up
+
+cd vendas-api/documentos/database.sql
+
+copy script and create database and tables using dbeaver
+```
+
+## Application
+```
+Run VendasApiApplication.java 
+```
+
+## Getting Started (front)
+
+## Node Version
+```
+14.17.3
+```
+
+First install dependencies
+
+*delete node_modules folder
+```bash
+yarn
+```
+then, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
@@ -33,7 +62,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Node Version
-```
-14.17.3
-```
